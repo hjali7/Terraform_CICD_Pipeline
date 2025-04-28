@@ -1,0 +1,17 @@
+"jobs":
+  "build_job":
+    "script":
+    - "echo Building project..."
+    "stage": "build"
+  "deploy_job":
+    "script":
+    - "echo Deploying to production..."
+    "stage": "deploy"
+  "test_job":
+    "script":
+    - "echo Running tests..."
+    "stage": "test"
+"stages":
+- "build"
+- "test"
+- "deploy"
